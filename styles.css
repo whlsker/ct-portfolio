@@ -1,0 +1,18 @@
+/* Light gray (whitish) box for main content */
+.main-box {
+    background: whitesmoke;
+    border-radius: medium;
+    box-shadow: none;
+    margin: large auto;
+    max-width: none;
+    display: inline-block;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
