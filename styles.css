@@ -1,15 +1,26 @@
+/* Black header at the very top */
+.black-header {
+    width: 100vw;
+    height: 56px;
+    background: #2a3439;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
 /* Light gray (whitish) box for main content */
 .main-box {
-    background: whitesmoke;
-    border-radius: medium;
+    background: gray;
+    border-radius: 16px;
     box-shadow: none;
-    margin: large auto;
-    max-width: none;
+    margin: 80px auto 0 auto;
+    max-width: 600px;
     display: inline-block;
 }
 
 body {
-    background-color: gray;
+    background-color: #e0e0e0;
     text-align: center;
 }
 
