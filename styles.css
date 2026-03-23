@@ -20,10 +20,107 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* full screen height */
+    display: flex;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+}
+
+.gray-box {
     background-color: #e0e0e0;
-    text-align: center;
+    padding: 40px;
+    width: 600px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif
+}
+
+.left-circle {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    /* 2× smaller than 600px */
+    height: 300px;
+    /* keep it perfectly round */
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.left-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hello-box {
+    display: inline-block;
+    padding: 40px 60px;
+    /* space inside the box */
+    background-color: white;
+    /* box color */
+    border: 3px solid black;
+    /* box outline */
+    border-radius: 12px;
+    /* optional rounded corners */
+    font-size: 60px;
+    /* match your big text */
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-header {
+    position: fixed;
+    top: 10px;
+    /* creates the gap from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    /* inset from the sides */
+    height: 70px;
+    background-color: #d9d9d9;
+    border-radius: 40px;
+    /* rounded all around */
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* optional */
+}
+
+.top-header {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 70px;
+    background-color: #d9d9d9;
+    border-radius: 40px;
+    z-index: 1000;
+
+    display: flex;
+    /* enables centering */
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+}
+
+.top-header p {
+    font-size: 28px;
+    /* make text bigger */
+    font-weight: 600;
+    /* slightly bold */
+    margin: 0;
+    /* remove default spacing */
 }
