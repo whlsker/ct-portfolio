@@ -1,58 +1,16 @@
-/* Black header at the very top */
-.black-header {
-    width: 100vw;
-    height: 56px;
-    background: #2a3439;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2000;
-}
-
-/* Light gray (whitish) box for main content */
-.main-box {
-    background: gray;
-    border-radius: 16px;
-    box-shadow: none;
-    margin: 80px auto 0 auto;
-    max-width: 600px;
-    display: inline-block;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    /* full screen height */
-    display: flex;
-    justify-content: center;
-    /* center horizontally */
-    align-items: center;
-    /* center vertically */
-}
-
-.gray-box {
-    background-color: #e0e0e0;
-    padding: 40px;
-    width: 600px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif
-}
-
 .left-circle {
     position: absolute;
-    left: 40px;
+    left: 120px;
     top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
-    /* 2× smaller than 600px */
-    height: 300px;
-    /* keep it perfectly round */
+    transform: translateY(-90%);
+    width: 250px;
+
+    height: 250px;
+
     border-radius: 50%;
     overflow: hidden;
     background-color: white;
+    border: 10px solid rgb(26, 46, 70);
 }
 
 .left-circle img {
@@ -64,15 +22,15 @@ body {
 .hello-box {
     display: inline-block;
     padding: 40px 60px;
-    /* space inside the box */
-    background-color: white;
-    /* box color */
-    border: 3px solid black;
-    /* box outline */
+
+    background-color: rgb(26, 115, 203);
+
+    border: 3px solid rgb(49, 31, 0);
+
     border-radius: 12px;
-    /* optional rounded corners */
+
     font-size: 60px;
-    /* match your big text */
+
     font-weight: bold;
     position: absolute;
     top: 50%;
@@ -80,22 +38,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.top-header {
-    position: fixed;
-    top: 10px;
-    /* creates the gap from the top */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    /* inset from the sides */
-    height: 70px;
-    background-color: #d9d9d9;
-    border-radius: 40px;
-    /* rounded all around */
-    z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    /* optional */
-}
+
 
 .top-header {
     position: fixed;
@@ -104,23 +47,70 @@ body {
     transform: translateX(-50%);
     width: 90%;
     height: 70px;
-    background-color: #d9d9d9;
+    background-color: #393257;
     border-radius: 40px;
-    z-index: 1000;
+
 
     display: flex;
-    /* enables centering */
+
     justify-content: center;
-    /* horizontal center */
+
     align-items: center;
-    /* vertical center */
+
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+
 }
 
-.top-header p {
-    font-size: 28px;
-    /* make text bigger */
-    font-weight: 600;
-    /* slightly bold */
+
+
+
+
+
+.sydney-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.sydney-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sydney-image {
+    position: absolute;
+    left: 120px;
+    top: 50%;
+    transform: translateY(20%);
+    width: 250px;
+
+    height: 250px;
+
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    border: 10px solid rgb(26, 57, 83);
+}
+
+body,
+html {
     margin: 0;
-    /* remove default spacing */
+    height: 100%;
+    overflow: hidden;
+    /* Removes scrollbars if the image is the only content */
+}
+
+.full-page-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* Equivalent to background-size: cover */
+    display: block;
+
+
 }
