@@ -1,6 +1,6 @@
 .left-circle {
     position: absolute;
-    left: 120px;
+    left: 420px;
     top: 50%;
     transform: translateY(-90%);
     width: 250px;
@@ -10,7 +10,7 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: white;
-    border: 10px solid rgb(26, 46, 70);
+    border: 10px solid rgb(77, 54, 29);
 }
 
 .left-circle img {
@@ -19,24 +19,7 @@
     object-fit: cover;
 }
 
-.hello-box {
-    display: inline-block;
-    padding: 40px 60px;
 
-    background-color: rgb(26, 115, 203);
-
-    border: 3px solid rgb(49, 31, 0);
-
-    border-radius: 12px;
-
-    font-size: 60px;
-
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 
 
@@ -47,7 +30,7 @@
     transform: translateX(-50%);
     width: 90%;
     height: 70px;
-    background-color: #393257;
+    background-color: #957043;
     border-radius: 40px;
 
 
@@ -58,8 +41,9 @@
     align-items: center;
 
     font-size: 30px;
-    color: white;
-    font-family: monospace;
+    color: rgb(238, 203, 45);
+    font-family: orbitron, ;
+    border: 9px solid rgb(83, 54, 34);
 
 }
 
@@ -84,7 +68,7 @@
 
 .sydney-image {
     position: absolute;
-    left: 120px;
+    left: 420px;
     top: 50%;
     transform: translateY(20%);
     width: 250px;
@@ -94,7 +78,7 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: white;
-    border: 10px solid rgb(26, 57, 83);
+    border: 10px solid rgb(83, 54, 34);
 }
 
 body,
@@ -111,6 +95,69 @@ html {
     object-fit: cover;
     /* Equivalent to background-size: cover */
     display: block;
+}
 
 
+.box-1 {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-90%);
+    width: 250px;
+
+    height: 250px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+}
+
+.box-2 {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(20%);
+    width: 250px;
+
+    height: 250px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+}
+
+.box-3 {
+    position: absolute;
+    right: 400px;
+    top: 50%;
+    transform: translateY(-90%);
+    width: 250px;
+
+    height: 250px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+}
+
+.box-4 {
+    position: absolute;
+    right: 400px;
+    top: 50%;
+    transform: translateY(20%);
+    width: 250px;
+
+    height: 250px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
 }
