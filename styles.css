@@ -43,7 +43,8 @@
     font-size: 30px;
     color: rgb(238, 203, 45);
     font-family: orbitron, ;
-    border: 9px solid rgb(83, 54, 34);
+    border: 10px solid rgb(83, 54, 34);
+
 
 }
 
@@ -112,6 +113,8 @@ html {
     background-color: white;
     border-radius: 40px;
     border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+    /* Hex code for orange */
 }
 
 .box-2 {
@@ -128,6 +131,8 @@ html {
     background-color: white;
     border-radius: 40px;
     border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+
 }
 
 .box-3 {
@@ -144,6 +149,8 @@ html {
     background-color: white;
     border-radius: 40px;
     border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+
 }
 
 .box-4 {
@@ -154,6 +161,78 @@ html {
     width: 250px;
 
     height: 250px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+
+}
+
+.box-5 {
+    position: absolute;
+    right: 475px;
+    top: 50%;
+    transform: translateY(-48%);
+    width: 700px;
+
+    height: 400px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+    /* Hex code for orange */
+}
+
+.box-6 {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-270%);
+    width: 50px;
+
+    height: 50px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+
+}
+
+.box-7 {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-100%);
+    width: 250px;
+
+    height: 175px;
+
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 40px;
+    border: 10px solid rgb(86, 55, 26);
+    background-color: #b79a80;
+
+}
+
+.box-8 {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(10%);
+    width: 250px;
+
+    height: 175px;
 
 
     overflow: hidden;
