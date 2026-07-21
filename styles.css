@@ -281,3 +281,13 @@ html {
     background-color: #b79a80;
 
 }
+
+.dashboard-iframe {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border: 2px solid #0d0202;
+}
